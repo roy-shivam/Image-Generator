@@ -27,7 +27,7 @@ apiRequest = () => {
 
   document.querySelector("#grid").textContent = "";
 
-  const url = 'https://api.unsplash.com/search/photos?query='+input.value+'&per_page=30&client_id=SouHY7Uul-OxoMl3LL3c0NkxUtjIrKwf3tsGk1JaiVo';
+  const url = 'https://api.unsplash.com/search/photos?query='+input.value+'&per_page=30&client_id=erqklxnhDIAlvvLiohJj7jSDVwwtqfWgIOVQqAW3lKQ';
 
   fetch(url)
 
